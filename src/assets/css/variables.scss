@@ -1,0 +1,10 @@
+$breakpoints: (
+  'small':  ( min-width:  767px ),
+  'medium': ( min-width:  992px ),
+  'large':  ( min-width: 1200px )
+) !default;
+
+$color-primary: #29AE77;
+$color-secundary: #1b6741;
+$color-font-primary: #ffffff;
+$color-font: #000000;
