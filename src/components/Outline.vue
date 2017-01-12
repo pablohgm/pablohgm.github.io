@@ -6,54 +6,61 @@
       <p>{{ basics.label }}</p>
     </div>
     <section>
-        <div class="break-section">
+        <div class="title-section">
           <h1>Personal Info</h1>
         </div>
-        <h2>Skype</h2>
-        <p>{{ basics.skype }}</p>
-        <h2>E-mail</h2>
-        <p>{{ basics.email }}</p>
-        <h2>Phone</h2>
-        <p>{{ basics.phone }}</p>
+        <div class="body-section">
+          <h2>Skype</h2>
+          <p>{{ basics.skype }}</p>
+          <h2>E-mail</h2>
+          <p>{{ basics.email }}</p>
+          <h2>Phone</h2>
+          <p>{{ basics.phone }}</p>
+        </div>
     </section>
     <section>
-      <div class="break-section">
+      <div class="title-section">
         <h1>Social media</h1>
       </div>
-      <div v-for="profile in basics.profiles">
+      <div class="body-section" v-for="profile in basics.profiles">
         <h2>{{ profile.network }}</h2>
         <p>{{ profile.url }}</p>
       </div>
     </section>
     <section>
-      <div class="break-section">
+      <div class="title-section">
         <h1>Skills</h1>
       </div>
-      <div v-for="skill in skills">
+      <div class="body-section" v-for="skill in skills">
         <h2>{{ skill.name }}</h2>
-        <p>{{ skill.level }}</p>
-        <progress></progress>
-        <span v-for="tech in skill.keywords">
-          {{ tech }},
-        </span>
+        <progress-bar :percentage="skill.level"></progress-bar>
+        <p class="skill" v-for="tech in skill.keywords">
+          {{ tech }}
+        </p>
       </div>
     </section>
     <section>
-      <div class="break-section">
+      <div class="title-section">
         <h1>Languajes</h1>
       </div>
-      <p v-for="language in languages">{{ language.name }} - {{ language.level }}</p>
+      <div class="body-section" v-for="language in languages">
+        <p>{{ language.name }} - {{ language.level }}</p>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
     import data from '../../static/data.json';
+    import ProgressBar from './ProgressBar';
 
     export default {
       name: 'outline',
       data() {
         return data;
+      },
+      components: {
+        ProgressBar
       }
     };
 </script>
@@ -89,31 +96,37 @@
     }
 
     section {
+      padding-bottom: 15px;
+      padding-top: 15px;
 
-      .break-section {
+      .title-section {
         width: 100%;
         background-color: $color-secundary;
-        padding-left: 4%;
         padding-top: 15px;
         padding-bottom: 15px;
+      }
+
+      .body-section {
+        padding-left: 4%;
+        padding-right: 4%;
       }
 
       h1 {
         font-weight: bold;
         font-size: 1.5em;
         margin: 0;
+        padding-left: 4%;
       }
 
       h2 {
         font-weight: bold;
         font-size: 1em;
-        padding-left: 4%;
       }
 
-      p {
-        padding-left: 4%;
+      .skill {
+        font-size: 0.8em;
+        margin: 0;
       }
-
     }
 
 </style>

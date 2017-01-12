@@ -222,12 +222,10 @@
     "name": "Frond-End",
     "level": "90",
     "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript",
+      "Javascript, HTML, CSS",
       "AngularJS",
       "Vuejs",
-      "Javascript Build Tools (Gulp, Webpack, Grunt, SystemJS)",
+      "Javascript Build Tools (Gulp, Webpack, Grunt)",
       "CSS Frameworks (SASS, Bootstrap, Angular Material)"
     ]
   },{
