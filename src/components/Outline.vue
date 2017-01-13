@@ -75,10 +75,11 @@
       padding-top: 15px;
       padding-bottom: 15px;
 
-      @include respond-to('medium') {
+      @include respond-to('large') {
         font-size: 1em;
-        width: 25%;
-        float: left;
+        width: 1%;
+        max-width: 300px;
+        display: table-cell;
       }
     }
 
@@ -92,6 +93,12 @@
 
       p {
         font-size: 1.2em;
+      }
+
+      @include respond-to('large') {
+        h1 {
+          font-size: 1.5em;
+        }
       }
     }
 
@@ -137,6 +144,34 @@
       .skill {
         font-size: 1em;
         margin: 0;
+      }
+
+      @include respond-to('large') {
+        padding-bottom: 5px;
+        padding-top: 0px;
+
+        .title-section {
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+
+        h1 {
+          font-size: 1.2em;
+        }
+
+        h2 {
+          font-weight: bold;
+          font-size: 1em;
+        }
+
+        p {
+          font-size: 1em;
+        }
+
+        .skill {
+          font-size: 1em;
+          margin: 0;
+        }
       }
     }
 

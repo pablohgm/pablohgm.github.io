@@ -82,6 +82,7 @@
     padding-right: 2%;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: justify;
 
     p {
       font-size: 1.2em;
@@ -89,6 +90,23 @@
 
     span {
       font-size: 1.2em;
+    }
+
+    @include respond-to('large') {
+      display: table-cell;
+      vertical-align: top;
+
+      h2 {
+        font-size: 1.2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+
+      span {
+        font-size: 1.1em;
+      }
     }
   }
 
@@ -105,6 +123,17 @@
       -webkit-font-smoothing: auto;
       -moz-osx-font-smoothing: auto;
       font-size: 1.6em;
+    }
+
+    @include respond-to('large') {
+      border-width: 1px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      margin-bottom: 5px;
+
+      h1 {
+        font-size: 1.2em;
+      }
     }
   }
 
