@@ -70,7 +70,6 @@
 
     .outline {
       background-color: $color-primary;
-      font-size: 1.5em;
       color: $color-font-primary;
       width: 100%;
       padding-top: 15px;
@@ -86,6 +85,14 @@
     .intro {
       text-align: center;
       padding-left: 2%;
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
     }
 
     .picture {
@@ -113,18 +120,22 @@
 
       h1 {
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.4em;
         margin: 0;
         padding-left: 4%;
       }
 
       h2 {
         font-weight: bold;
-        font-size: 1em;
+        font-size: 1.3em;
+      }
+
+      p {
+        font-size: 1.2em;
       }
 
       .skill {
-        font-size: 0.8em;
+        font-size: 1em;
         margin: 0;
       }
     }

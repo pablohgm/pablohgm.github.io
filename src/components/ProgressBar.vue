@@ -28,7 +28,7 @@
 
   .bar {
     background-color: $color-font-primary;
-    height: 24px;
+    height: 10px;
   }
 
 </style>

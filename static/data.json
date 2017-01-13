@@ -27,14 +27,26 @@
         "url": "https://github.com/pablohgm"
       }]
   },
-  "project": [{
+  "nfpProjects": [{
+    "name": "ASOFAC",
+    "description": "Palliative Care membership system",
+    "url": "Private Network",
+    "technologies": ["AngularJS", "Angular Material", "LoopBack", "JSReport"]
+  },
+    {
+      "name": "SanraRed Web Page",
+      "description": "Web Page for Social Activist Group",
+      "url": "http://sanrared.org/sanrared/",
+      "technologies": ["HTML", "CSS"]
+    }],
+  "projects": [{
     "name": "SIGEM",
     "description": "Telecommunications System",
     "client": {
       "name": "I.C.E (The biggest Costa Rican telecommunications company)",
       "country": "Costa Rica"
     },
-    "Technologies": ["Java EE", "ICEFaces", "Maven", "Spring"],
+    "technologies": ["Java EE", "ICEFaces", "Maven", "Spring"],
     "rol": "Java Developer",
     "teamSize": "4+",
     "startDate": "2011",
@@ -52,7 +64,7 @@
         "name": "Momentum Design Lab",
         "country": "USA"
       },
-      "Technologies": ["Javascript", "HTML", "CSS", "jQuery", "EmberJS"],
+      "technologies": ["Javascript", "HTML", "CSS", "jQuery", "EmberJS"],
       "rol": "Frontend Developer",
       "teamSize": "8+",
       "startDate": "2013",
@@ -67,7 +79,7 @@
         "name": "Alivebox",
         "country": "Costa Rica"
       },
-      "Technologies": ["Angularjs", "Django", "REST", "Gruntjs"],
+      "technologies": ["Angularjs", "Django", "REST", "Gruntjs"],
       "rol": "Full-Stack Developer",
       "teamSize": "2+",
       "startDate": "2014",
@@ -83,7 +95,7 @@
         "name": "Digitas LBI",
         "country": "U.K."
       },
-      "Technologies": ["Javascript", "Handlebars", "CSS", "HTML", "SASS"],
+      "technologies": ["Javascript", "Handlebars", "CSS", "HTML", "SASS"],
       "rol": "Senior Frontend Developer",
       "teamSize": "105+",
       "startDate": "2014",
@@ -98,7 +110,7 @@
       "name": "Digitas LBI",
       "country": "USA"
       },
-      "Technologies": [" AngularJS", "AEM", "CSS"],
+      "technologies": [" AngularJS", "AEM", "CSS"],
       "rol": "Senior Frontend Developer",
       "teamSize": "12+",
       "startDate": "2015",
@@ -115,7 +127,7 @@
       "name": "I.C.E (The biggest Costa Rican telecommunications company)",
       "country": "Costa Rica"
     },
-    "Technologies": [" MVC Spring", "JSP", "Maven"],
+    "technologies": [" MVC Spring", "JSP", "Maven"],
     "rol": "Senior Java Developer",
     "teamSize": "2+",
     "startDate": "2016",
@@ -124,7 +136,7 @@
       "Get stable and release a critical project."
     ]
   }],
-  "work": [{
+  "works": [{
     "company": "Alivebox",
     "position": "Full Stack developer",
     "website": "http://alivebox.com",
@@ -274,17 +286,14 @@
     "name": "Spanish",
     "level": "Native"
   }],
-  "interests": [{
-    "name": "Personal",
-    "keywords": [
+  "interests": [
       "Social Activist",
       "HomeBrew",
       "Craft Beer Business",
       "Software Libre",
       "Camping",
       "Traveling"
-    ]
-  }],
+  ],
   "references": [{
     "name": "",
     "reference": ""
