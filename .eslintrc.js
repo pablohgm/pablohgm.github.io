@@ -21,6 +21,7 @@ module.exports = {
   'rules': {
     'no-param-reassign': 'off',
     'comma-dangle': 'off',
+    'linebreak-style': 'off',
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       'js': 'never',
