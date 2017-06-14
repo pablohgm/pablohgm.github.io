@@ -16,6 +16,11 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# build and deploy for production. Take the dist folder and push to github pages master branch
+npm run deploy
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+If you want to see the full code, checkout develop branch.
+
+
