@@ -1,0 +1,301 @@
+{
+  "basics": {
+    "name": "Pablo Gonzalez Murillo",
+    "label": "Senior Software Engineer",
+    "picture": "./../assets/photo.jpg",
+    "email": "pablohgm@gmail.com",
+    "skype": "pablohgm",
+    "phone": "+(506) 8312-8226",
+    "website": "http://pablogonzalezmurillo.com/",
+    "birthDate": "02-15-1989",
+    "summary": "I am a technology and software passionate. I have experience working as a backend and frontend developer, contributing with Costa Rica and North American companies. I define myself as an enterprising person and social activist, I have experience leading people and making business decisions. I really love be updated about the changes in the software community to challenge myself to improve as a professional.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Alajuela",
+      "countryCode": "CR",
+      "region": "",
+      "country": "Costa Rica"
+    },
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "pablohgm",
+      "url": "https://www.linkedin.com/in/pablohgm"
+    }, {
+        "network": "Github",
+        "username": "pablohgm",
+        "url": "https://github.com/pablohgm"
+      }]
+  },
+  "nfpProjects": [{
+    "name": "ASOFAC",
+    "description": "Palliative Care membership system",
+    "url": "Private Network",
+    "technologies": ["AngularJS", "Angular Material", "LoopBack", "JSReport"]
+  },
+    {
+      "name": "SanraRed Web Page",
+      "description": "Web Page for Social Activist Group",
+      "url": "http://sanrared.org/sanrared/",
+      "technologies": ["HTML", "CSS"]
+    }],
+  "projects": [{
+    "name": "SIGEM",
+    "description": "Telecommunications System",
+    "client": {
+      "name": "I.C.E (The biggest Costa Rican telecommunications company)",
+      "country": "Costa Rica"
+    },
+    "technologies": ["Java EE", "ICEFaces", "Maven", "Spring"],
+    "rol": "Java Developer",
+    "teamSize": "4+",
+    "startDate": "2011",
+    "endDate": "2013",
+    "highlights": [
+      "Migrate old modules to ICEfaces.",
+      "Create new modules and release the project for the first stable version.",
+      "Manage the technical decision of the project.",
+      "During this time I gained proficiency in Front-End technologies such as CSS, HTML, and several javascript based frameworks."
+    ]
+  }, {
+      "name": "Private Project",
+      "description": "Legal Cases Management System",
+      "client": {
+        "name": "Momentum Design Lab",
+        "country": "USA"
+      },
+      "technologies": ["Javascript", "HTML", "CSS", "jQuery", "EmberJS"],
+      "rol": "Frontend Developer",
+      "teamSize": "8+",
+      "startDate": "2013",
+      "endDate": "2013",
+      "highlights": [
+        "Research and learning of new technology: EmberJS"
+      ]
+    }, {
+      "name": "Koddas",
+      "description": "Code Review System",
+      "client": {
+        "name": "Alivebox",
+        "country": "Costa Rica"
+      },
+      "technologies": ["Angularjs", "Django", "REST", "Gruntjs"],
+      "rol": "Full-Stack Developer",
+      "teamSize": "2+",
+      "startDate": "2014",
+      "endDate": "2014",
+      "highlights": [
+        "Defining the Angularjs UI and Backend architecture",
+        "Research and learning of new technology: Django"
+      ]
+    }, {
+      "name": "Helios",
+      "description": "Responsive sites for  Renault–Nissan Alliance (Nissan, Renault, Infiniti and Datsun)",
+      "client": {
+        "name": "Digitas LBI",
+        "country": "U.K."
+      },
+      "technologies": ["Javascript", "Handlebars", "CSS", "HTML", "SASS"],
+      "rol": "Senior Frontend Developer",
+      "teamSize": "105+",
+      "startDate": "2014",
+      "endDate": "2014",
+      "highlights": [
+        "Creating mobile first pages using the same template for all the brands."
+      ]
+    },{
+      "name": "Onstar",
+      "description": "AEM site for ONSTAR",
+      "client": {
+      "name": "Digitas LBI",
+      "country": "USA"
+      },
+      "technologies": [" AngularJS", "AEM", "CSS"],
+      "rol": "Senior Frontend Developer",
+      "teamSize": "12+",
+      "startDate": "2015",
+      "endDate": "2016",
+      "highlights": [
+        "Improving code standards.",
+        "Defining grunt task.",
+        "Helping with deploy automatization."
+      ]
+  },{
+    "name": "Viajes",
+    "description": "Manage travels System",
+    "client": {
+      "name": "I.C.E (The biggest Costa Rican telecommunications company)",
+      "country": "Costa Rica"
+    },
+    "technologies": [" MVC Spring", "JSP", "Maven"],
+    "rol": "Senior Java Developer",
+    "teamSize": "2+",
+    "startDate": "2016",
+    "endDate": "2016",
+    "highlights": [
+      "Get stable and release a critical project."
+    ]
+  }],
+  "works": [{
+    "company": "Alivebox",
+    "position": "Full Stack developer",
+    "website": "http://alivebox.com",
+    "startDate": "2011",
+    "endDate": "2014",
+    "summary": "",
+    "highlights": [
+      "I worked on a huge project migration to J2EE, I had responsibilities such as requirement gathering, management, and coding .",
+      "I served on several projects center on Front-End technologies. I was in charge of estimations, Linux server administration tasks and coding.",
+      "During this time I gained proficiency in Front-End technologies such as CSS, HTML, and several javascript based frameworks."
+    ]
+  },
+    {
+      "company": "Prodigious",
+      "position": "Senior Front-End Developer",
+      "website": "http://prodigious .com",
+      "startDate": "2014",
+      "endDate": "2016",
+      "summary": "",
+      "highlights": [
+        "During my staying in Prodigious, I served as Front-End developer for Onstar account.",
+        " I contributed mostly on tasks related to javascript,  API's integration and improving the code quality. ",
+        "I assumed experience working with AEM 5.6, Angularjs and HTML5. ",
+        "I had the opportunity to take the leadership role and help my team members."
+      ]
+    },
+    {
+      "company": "Alivebox",
+      "position": "Full Stack developer",
+      "website": "http://alivebox.com",
+      "startDate": "2016",
+      "endDate": "2016",
+      "summary": "",
+      "highlights": [
+        "SWorked as a full-stack developer for significant government's project.",
+        "Worked under pressure for a critical project.",
+        "Requirement analysis and client management were my functions as well."
+      ]
+    }],
+  "volunteer": [{
+    "organization": "Sanrared",
+    "position": "Founder",
+    "website": "http://sanrared.org/",
+    "startDate": "2012",
+    "endDate": "",
+    "summary": "",
+    "highlights": []
+  }],
+  "education": [{
+    "institution": "University of London International Programmes (Coursera)",
+    "area": "Creative Programming for Digital Media & Mobile Apps",
+    "studyType": "Course",
+    "startDate": "2013",
+    "endDate": "",
+    "gpa": "",
+    "courses": []
+  },
+    {
+      "institution": "Universidad Nacional de Costa Rica",
+      "area": "Systems Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Nacional de Costa Rica",
+      "area": "Capacity Building Project ICT in SMEs and local governments through the use of Free Software",
+      "studyType": "course",
+      "startDate": "2010",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Nacional de Costa Rica. Office of the Vice-President for Academic Affairs – Direction for Teaching",
+      "area": "Office of the Vice-President for Student Affairs, Academic Success Program. Certified performance as a tutor student in the Academic Success program, Two academic years",
+      "studyType": "Internship",
+      "startDate": "2009",
+      "endDate": "2010",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Ministerio de Educación Pública",
+      "area": "Technology Education Component. Introduction to Design Workshop: The color and qualities. Publicity media production",
+      "studyType": "course",
+      "startDate": "2006",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    }],
+  "skills": [{
+    "name": "Frond-End",
+    "level": "90",
+    "keywords": [
+      "Javascript, HTML, CSS",
+      "AngularJS",
+      "Vuejs",
+      "Javascript Build Tools (Gulp, Webpack, Grunt)",
+      "CSS Frameworks (SASS, Bootstrap, Angular Material)"
+    ]
+  },{
+    "name": "Back-End",
+    "level": "60",
+    "keywords": [
+    "Java",
+    "Nodejs"
+    ]
+  },{
+    "name": "DevOps",
+    "level": "30",
+    "keywords": [
+      "Git",
+      "Automation Tools (Jenkins)",
+      "AWS",
+      "Web Servers (Apache, nginX)",
+      "Platforms: Linux, Mac OS X"
+    ]
+  },{
+    "name": "Agile",
+    "level": "80",
+    "keywords": [
+      "Scrum"
+    ]
+  },{
+    "name": "Social",
+    "level": "80",
+    "keywords": [
+      "Technical and social leadership",
+      "Personal Training"
+    ]
+  },{
+    "name": "Databases",
+    "level": "60",
+    "keywords": [
+      "Mysql",
+      "Postgresql",
+      "Oracle"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Professional proficiency"
+  },{
+    "name": "Spanish",
+    "level": "Native"
+  }],
+  "interests": [
+      "Social Activist",
+      "HomeBrew",
+      "Craft Beer Business",
+      "Software Libre",
+      "Camping",
+      "Traveling"
+  ],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }]
+}
