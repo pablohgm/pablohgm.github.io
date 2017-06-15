@@ -76,7 +76,6 @@
       padding-bottom: 15px;
 
       @include respond-to('large') {
-        font-size: 1em;
         width: 1%;
         max-width: 300px;
         display: table-cell;
